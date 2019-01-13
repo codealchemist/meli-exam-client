@@ -18,6 +18,10 @@ export const Content = styled.div`
   margin: auto;
   display: flex;
   align-items: center;
+
+  img {
+    cursor: pointer;
+  }
 `
 
 export const Spacer = styled.div`

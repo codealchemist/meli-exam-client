@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import logo from './logo.png'
 import Search from '../Search'
 import { Wrapper, Content, Spacer } from './Elements'
@@ -16,4 +17,5 @@ const Header = ({ history }) => (
     </Content>
   </Wrapper>
 )
-export default Header
+
+export default withRouter(Header)
