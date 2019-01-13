@@ -1,24 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
 import Breadcrumb from '../../components/Breadcrumb'
 import Context from '../../Context'
 import { getCategory as getCategoryApi } from '../../api'
 import ProductDetails from '../../components/ProductDetails'
-import Colors from '../../components/Colors'
 import { getProductDetails as getProductDetailsApi } from '../../api'
-
-const Wrapper = styled.div`
-  width: 100%;
-  background: ${Colors.default.light2};
-  padding-bottom: 40px;
-`
-
-const Content = styled.div`
-  width: 100%;
-  max-width: 1200px;
-  background: ${Colors.default.light2};
-  margin: auto;
-`
+import { Wrapper, Content } from './Elements'
 
 class DetailsPage extends React.PureComponent {
   state = {
@@ -46,7 +32,7 @@ class DetailsPage extends React.PureComponent {
   }
 
   getCategory = () => {
-    const { category_id } = this.context.productDetails.details
+    const { category_id } = this.context.productDetails.item
     getCategoryApi(category_id).then(categories => {
       console.log('got categories', categories)
       this.context.setProductCategories(categories)

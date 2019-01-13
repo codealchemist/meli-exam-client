@@ -49,7 +49,7 @@ class ResultsPage extends React.PureComponent {
                 }
               />
             )}
-            <Results items={this.context.searchResponse.results || []} />
+            <Results items={this.context.searchResponse.items || []} />
           </Wrapper>
         )}
 
