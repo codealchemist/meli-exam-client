@@ -1,28 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import ResultsPage from './pages/ResultsPage'
+import './App.css'
+import Header from './components/Header'
+import Context from './Context'
 
-class App extends Component {
+class App extends React.PureComponent {
+  state = {
+    query: '',
+    searchResponse: '',
+    productId: null,
+    setSearchResponse: searchResponse => this.setState({ searchResponse })
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      <Router>
+        <Context.Provider value={this.state}>
+          <Header />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/items" component={ResultsPage} />
+        </Context.Provider>
+      </Router>
+    )
   }
 }
 
-export default App;
+export default App
