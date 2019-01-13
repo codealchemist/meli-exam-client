@@ -66,11 +66,11 @@ const Item = ({ item, history }) => (
     {context => (
       <Wrapper onClick={() => openDetails({ item, history, context })}>
         <LeftWrapper>
-          <img src={item.thumbnail} alt="Product" />
+          <img src={item.picture} alt="Product" />
         </LeftWrapper>
 
         <RightWrapper>
-          <h3>$ {item.price}</h3>
+          <h3>$ {item.price.amount}</h3>
           <p>{item.title}</p>
         </RightWrapper>
 
