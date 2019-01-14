@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails should render 1`] = `
+<ProductDetails>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "hwUqSB",
+            "rules": Array [
+              "
+  width: 100%;
+  background: ",
+              "#fff",
+              ";
+  padding: 20px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa hwUqSB"
+      >
+        <Consumer>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "ducbCl",
+                    "rules": Array [
+                      "
+  display: flex;
+  padding: 20px;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bwzfXH ducbCl"
+              >
+                <styled.div>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "jeapRr",
+                          "rules": Array [
+                            "
+  flex: 1;
+  text-align: center;
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="sc-htpNat jeapRr"
+                    >
+                      <img
+                        alt="Product"
+                        src="image-url"
+                      />
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+                <styled.div>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cYCRKM",
+                          "rules": Array [
+                            "
+  width: 300px;
+  text-transform: capitalize;
+
+  button {
+    background: ",
+                            "#3483fa",
+                            ";
+    font-size: 15px;
+    padding: 12px 16px;
+    border: 1px solid ",
+                            "#3483fa",
+                            ";
+    color: ",
+                            "#fff",
+                            ";
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-ifAKCX",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="sc-ifAKCX cYCRKM"
+                    >
+                      <label>
+                        new
+                         -
+                         
+                        86
+                         vendidos
+                      </label>
+                      <h2>
+                        Rock
+                      </h2>
+                      <h1>
+                        $ 
+                        42
+                      </h1>
+                      <button>
+                        Comprar
+                      </button>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "jcNPuI",
+                    "rules": Array [
+                      "
+  width: 100%;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb jcNPuI"
+              >
+                <h3>
+                  Descripción del producto
+                </h3>
+                <p>
+                  Description.
+                </p>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </Consumer>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</ProductDetails>
+`;

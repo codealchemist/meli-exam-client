@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render 1`] = `
+<Search>
+  <Consumer>
+    <styled.div>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "lastClassName": "gkztzw",
+              "rules": Array [
+                "
+  flex: 1;
+  position: relative;
+
+  input {
+    height: 39px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 7px 60px 9px 15px;
+    border-radius: 2px;
+    background-color: ",
+                "#fff",
+                ";
+    border: 0 rgba(0, 0, 0, 0.2);
+    color: ",
+                "#333",
+                ";
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="sc-bdVaJa gkztzw"
+        >
+          <input
+            autoFocus={true}
+            maxLength="120"
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            placeholder="Buscar productos, marcas y más..."
+            type="search"
+          />
+          <div
+            background="#eee"
+            onClick={[Function]}
+            type="nav-icon-search"
+          />
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </Consumer>
+</Search>
+`;

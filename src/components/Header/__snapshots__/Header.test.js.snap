@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render 1`] = `
+<Header>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "lastClassName": "kYfJcW",
+            "rules": Array [
+              "
+  width: 100%;
+  height: 56px;
+  background: ",
+              "#fff159",
+              ";
+  display: flex;
+
+  img {
+    height: 32px;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-htpNat kYfJcW"
+      >
+        <styled.div>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bxivhb",
+                  "isStatic": true,
+                  "lastClassName": "eOeEVV",
+                  "rules": Array [
+                    "
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bxivhb",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="sc-bxivhb eOeEVV"
+            >
+              <img
+                alt="MELI logo"
+                onClick={[Function]}
+                src="logo.png"
+              />
+              <styled.div>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-ifAKCX",
+                        "isStatic": true,
+                        "lastClassName": "iUlfka",
+                        "rules": Array [
+                          "
+  width: 20px;
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-ifAKCX",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="sc-ifAKCX iUlfka"
+                  />
+                </StyledComponent>
+              </styled.div>
+              <Search>
+                <styled.div>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bwzfXH",
+                          "isStatic": true,
+                          "lastClassName": "iJfAsV",
+                          "rules": Array [
+                            "
+  flex: 1;
+  position: relative;
+
+  input {
+    height: 39px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 7px 60px 9px 15px;
+    border-radius: 2px;
+    background-color: ",
+                            "#fff",
+                            ";
+    border: 0 rgba(0, 0, 0, 0.2);
+    color: ",
+                            "#333",
+                            ";
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bwzfXH",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="sc-bwzfXH iJfAsV"
+                    >
+                      <input
+                        autoFocus={true}
+                        maxLength="120"
+                        onChange={[Function]}
+                        onKeyPress={[Function]}
+                        placeholder="Buscar productos, marcas y más..."
+                        type="search"
+                      />
+                      <Icon
+                        background="#eee"
+                        onClick={[Function]}
+                        type="nav-icon-search"
+                      >
+                        <styled.div
+                          background="#eee"
+                          onClick={[Function]}
+                        >
+                          <StyledComponent
+                            background="#eee"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "dBqOzX",
+                                  "rules": Array [
+                                    "
+  width: 46px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: ",
+                                    "#666",
+                                    ";
+  background: ",
+                                    [Function],
+                                    ";
+
+  i {
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            onClick={[Function]}
+                          >
+                            <div
+                              className="sc-bdVaJa dBqOzX"
+                              onClick={[Function]}
+                            >
+                              <i
+                                className="nav-icon-search"
+                              />
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                      </Icon>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </Search>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Header>
+`;

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results should render with items 1`] = `
+<Results
+  items={
+    Array [
+      Object {
+        "id": 42,
+        "name": "rock",
+      },
+    ]
+  }
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "jvYsJV",
+            "rules": Array [
+              "
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background: ",
+              "#fff",
+              ";
+  color: ",
+              "#333",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa jvYsJV"
+      >
+        <div
+          item={
+            Object {
+              "id": 42,
+              "name": "rock",
+            }
+          }
+          key="42"
+        />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Results>
+`;
+
+exports[`Results should render without items 1`] = `
+<Results
+  items={Array []}
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "jvYsJV",
+            "rules": Array [
+              "
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background: ",
+              "#fff",
+              ";
+  color: ",
+              "#333",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa jvYsJV"
+      />
+    </StyledComponent>
+  </styled.div>
+</Results>
+`;

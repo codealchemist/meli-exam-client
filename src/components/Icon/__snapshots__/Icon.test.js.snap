@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should pass onClick 1`] = `
+<Icon
+  onClick={[MockFunction]}
+>
+  <styled.div
+    onClick={[MockFunction]}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "bPZTKg",
+            "rules": Array [
+              "
+  width: 46px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: ",
+              "#666",
+              ";
+  background: ",
+              [Function],
+              ";
+
+  i {
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[MockFunction]}
+    >
+      <div
+        className="sc-bdVaJa bPZTKg"
+        onClick={[MockFunction]}
+      >
+        <i />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Icon>
+`;
+
+exports[`Icon should render 1`] = `
+<Icon>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "bPZTKg",
+            "rules": Array [
+              "
+  width: 46px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: ",
+              "#666",
+              ";
+  background: ",
+              [Function],
+              ";
+
+  i {
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa bPZTKg"
+      >
+        <i />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Icon>
+`;
+
+exports[`Icon should render with custom background 1`] = `
+<Icon
+  background="black"
+>
+  <styled.div
+    background="black"
+  >
+    <StyledComponent
+      background="black"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "fspGsS",
+            "rules": Array [
+              "
+  width: 46px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: ",
+              "#666",
+              ";
+  background: ",
+              [Function],
+              ";
+
+  i {
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa fspGsS"
+      >
+        <i />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Icon>
+`;
+
+exports[`Icon should render with type 1`] = `
+<Icon
+  type="rock"
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "bPZTKg",
+            "rules": Array [
+              "
+  width: 46px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: ",
+              "#666",
+              ";
+  background: ",
+              [Function],
+              ";
+
+  i {
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa bPZTKg"
+      >
+        <i
+          className="rock"
+        />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Icon>
+`;
