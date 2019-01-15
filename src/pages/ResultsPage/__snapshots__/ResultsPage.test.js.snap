@@ -9,9 +9,9 @@ exports[`ResultsPage should render 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-gzVnrw",
+            "componentId": "sc-dnqmqq",
             "isStatic": true,
-            "lastClassName": "kDKrHG",
+            "lastClassName": "eWHIHI",
             "rules": Array [
               "
   width: 100%;
@@ -25,7 +25,7 @@ exports[`ResultsPage should render 1`] = `
           "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-gzVnrw",
+          "styledComponentId": "sc-dnqmqq",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -35,7 +35,7 @@ exports[`ResultsPage should render 1`] = `
       forwardedRef={null}
     >
       <div
-        className="sc-gzVnrw kDKrHG"
+        className="sc-dnqmqq eWHIHI"
       >
         <Results
           items={Array []}
@@ -47,9 +47,9 @@ exports[`ResultsPage should render 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bxivhb",
+                    "componentId": "sc-ifAKCX",
                     "isStatic": true,
-                    "lastClassName": "bXxwoo",
+                    "lastClassName": "dBJSQK",
                     "rules": Array [
                       "
   max-width: 1200px;
@@ -67,7 +67,7 @@ exports[`ResultsPage should render 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bxivhb",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -77,7 +77,7 @@ exports[`ResultsPage should render 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bxivhb bXxwoo"
+                className="sc-ifAKCX dBJSQK"
               />
             </StyledComponent>
           </styled.div>

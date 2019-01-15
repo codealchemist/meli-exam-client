@@ -4,11 +4,11 @@ import Colors from '../Colors'
 export const Wrapper = styled.div`
   width: 100%;
   background: ${Colors.default.light1};
-  padding: 20px;
 `
 
 export const TopWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
 `
 
@@ -22,7 +22,7 @@ export const BottomWrapper = styled.div`
 `
 
 export const BuyWrapper = styled.div`
-  width: 300px;
+  max-width: 300px;
   text-transform: capitalize;
 
   button {
@@ -34,5 +34,26 @@ export const BuyWrapper = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 4px;
+  }
+`
+
+export const Image = styled.div`
+  background: url(${props => props.src}) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 350px;
+  margin: auto;
+`
+
+export const Content = styled.div`
+  padding: 20px;
+
+  pre {
+    font-family: 'Proxima Nova';
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
 `

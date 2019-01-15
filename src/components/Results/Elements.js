@@ -12,12 +12,6 @@ export const Wrapper = styled.div`
   :hover {
     border-bottom: 1px solid ${Colors.brand.main};
   }
-
-  label {
-    position: absolute;
-    top: 40px;
-    right: 40px;
-  }
 `
 
 export const LeftWrapper = styled.div`
@@ -36,10 +30,21 @@ export const RightWrapper = styled.div`
 
   h3 {
     font-size: 24px;
-    margin-bottom: 0;
+    margin: 0;
+    padding-right: 5px;
   }
 
   p {
     font-size: 20px;
+  }
+`
+
+export const PriceRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  label {
+    padding: 0 10px;
   }
 `

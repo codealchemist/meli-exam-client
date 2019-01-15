@@ -57,4 +57,4 @@ Run the linter on the command line with `npm run lint`.
 
 # About
 
-The app is build with React, bootstraped with CRA.
+The app is built with React, bootstraped with CRA.

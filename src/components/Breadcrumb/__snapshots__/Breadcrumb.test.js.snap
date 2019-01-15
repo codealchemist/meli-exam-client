@@ -50,9 +50,7 @@ exports[`Breadcrumb should render breadcrumbs 1`] = `
       <div
         className="sc-bdVaJa cxEVoG"
       >
-        <styled.div
-          key="42"
-        >
+        <styled.div>
           <StyledComponent
             forwardedComponent={
               Object {
@@ -61,21 +59,13 @@ exports[`Breadcrumb should render breadcrumbs 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
                   "isStatic": true,
-                  "lastClassName": "fuoGiD",
+                  "lastClassName": "kXruMA",
                   "rules": Array [
                     "
   display: flex;
-
-  i {
-    font-style: normal;
-    padding: 0 5px;
-    display: flex;
-    align-items: center;
-  }
-
-  div {
-    cursor: pointer;
-  }
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
 ",
                   ],
                 },
@@ -92,29 +82,24 @@ exports[`Breadcrumb should render breadcrumbs 1`] = `
             forwardedRef={null}
           >
             <div
-              className="sc-bwzfXH fuoGiD"
+              className="sc-bwzfXH kXruMA"
             >
-              <div>
-                The answer to everything
-              </div>
-            </div>
-          </StyledComponent>
-        </styled.div>
-        <styled.div
-          key="86"
-        >
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": true,
-                  "lastClassName": "fuoGiD",
-                  "rules": Array [
-                    "
+              <styled.div
+                key="42"
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-htpNat",
+                        "isStatic": true,
+                        "lastClassName": "cROoOV",
+                        "rules": Array [
+                          "
   display: flex;
+  align-items: center;
 
   i {
     font-style: normal;
@@ -127,29 +112,83 @@ exports[`Breadcrumb should render breadcrumbs 1`] = `
     cursor: pointer;
   }
 ",
-                  ],
-                },
-                "displayName": "styled.div",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <div
-              className="sc-bwzfXH fuoGiD"
-            >
-              <i
-                className="breadcrumb-chevron"
-              />
-              <div>
-                Maxwell Smart
-              </div>
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-htpNat",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="sc-htpNat cROoOV"
+                  >
+                    <div>
+                      The answer to everything
+                    </div>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+              <styled.div
+                key="86"
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-htpNat",
+                        "isStatic": true,
+                        "lastClassName": "cROoOV",
+                        "rules": Array [
+                          "
+  display: flex;
+  align-items: center;
+
+  i {
+    font-style: normal;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    cursor: pointer;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-htpNat",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="sc-htpNat cROoOV"
+                  >
+                    <i
+                      className="breadcrumb-chevron"
+                    />
+                    <div>
+                      Maxwell Smart
+                    </div>
+                  </div>
+                </StyledComponent>
+              </styled.div>
             </div>
           </StyledComponent>
         </styled.div>
@@ -197,7 +236,44 @@ exports[`Breadcrumb should render empty component 1`] = `
     >
       <div
         className="sc-bdVaJa cxEVoG"
-      />
+      >
+        <styled.div>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "kXruMA",
+                  "rules": Array [
+                    "
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="sc-bwzfXH kXruMA"
+            />
+          </StyledComponent>
+        </styled.div>
+      </div>
     </StyledComponent>
   </styled.div>
 </Breadcrumb>

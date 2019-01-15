@@ -32,7 +32,7 @@ exports[`Item should render 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-bdVaJa",
               "isStatic": true,
-              "lastClassName": "bdCAb",
+              "lastClassName": "hrDVpR",
               "rules": Array [
                 "
   display: flex;
@@ -46,12 +46,6 @@ exports[`Item should render 1`] = `
     border-bottom: 1px solid ",
                 "#fff159",
                 ";
-  }
-
-  label {
-    position: absolute;
-    top: 40px;
-    right: 40px;
   }
 ",
               ],
@@ -70,7 +64,7 @@ exports[`Item should render 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-bdVaJa bdCAb"
+          className="sc-bdVaJa hrDVpR"
           onClick={[Function]}
         >
           <styled.div>
@@ -127,14 +121,15 @@ exports[`Item should render 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": true,
-                    "lastClassName": "eYiMlm",
+                    "lastClassName": "bzorVM",
                     "rules": Array [
                       "
   width: 100%;
 
   h3 {
     font-size: 24px;
-    margin-bottom: 0;
+    margin: 0;
+    padding-right: 5px;
   }
 
   p {
@@ -156,21 +151,61 @@ exports[`Item should render 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat eYiMlm"
+                className="sc-htpNat bzorVM"
               >
-                <h3>
-                  $ 
-                  42
-                </h3>
+                <styled.div>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bxivhb",
+                          "isStatic": true,
+                          "lastClassName": "hhlAgH",
+                          "rules": Array [
+                            "
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  label {
+    padding: 0 10px;
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bxivhb",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="sc-bxivhb hhlAgH"
+                    >
+                      <h3>
+                        $ 
+                        42
+                      </h3>
+                      <label>
+                        BA
+                      </label>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
                 <p>
                   Rock!
                 </p>
               </div>
             </StyledComponent>
           </styled.div>
-          <label>
-            BA
-          </label>
         </div>
       </StyledComponent>
     </styled.div>

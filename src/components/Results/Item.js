@@ -2,7 +2,7 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { getProductDetails } from '../../api'
 import Context from '../../Context'
-import { Wrapper, LeftWrapper, RightWrapper } from './Elements'
+import { Wrapper, LeftWrapper, RightWrapper, PriceRow } from './Elements'
 
 const openDetails = ({ item, history, context }) => {
   const { id } = item
@@ -26,11 +26,12 @@ const Item = ({ item, history }) => (
         </LeftWrapper>
 
         <RightWrapper>
-          <h3>$ {item.price.amount}</h3>
+          <PriceRow>
+            <h3>$ {item.price.amount}</h3>
+            <label>{item.address.state_name}</label>
+          </PriceRow>
           <p>{item.title}</p>
         </RightWrapper>
-
-        <label>{item.address.state_name}</label>
       </Wrapper>
     )}
   </Context.Consumer>

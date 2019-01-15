@@ -1,11 +1,14 @@
 import React from 'react'
+import CurrencyFormat from 'react-currency-format'
 import Context from '../../Context'
 import {
   Wrapper,
   TopWrapper,
   ImageWrapper,
   BuyWrapper,
-  BottomWrapper
+  BottomWrapper,
+  Image,
+  Content
 } from './Elements'
 
 const ProductDetails = () => (
@@ -15,7 +18,7 @@ const ProductDetails = () => (
         <>
           <TopWrapper>
             <ImageWrapper>
-              <img src={context.productDetails.item.picture} alt="Product" />
+              <Image src={context.productDetails.item.picture} />
             </ImageWrapper>
             <BuyWrapper>
               <label>
@@ -23,13 +26,23 @@ const ProductDetails = () => (
                 {context.productDetails.item.sold_quantity} vendidos
               </label>
               <h2>{context.productDetails.item.title}</h2>
-              <h1>$ {context.productDetails.item.price.amount}</h1>
+              <h1>
+                <CurrencyFormat
+                  displayType="text"
+                  prefix={'$'}
+                  thousandSeparator="."
+                  decimalSeparator=","
+                  value={context.productDetails.item.price.amount}
+                />
+              </h1>
               <button>Comprar</button>
             </BuyWrapper>
           </TopWrapper>
           <BottomWrapper>
-            <h3>Descripción del producto</h3>
-            <p>{context.productDetails.item.description}</p>
+            <Content>
+              <h3>Descripción del producto</h3>
+              <pre>{context.productDetails.item.description}</pre>
+            </Content>
           </BottomWrapper>
         </>
       )}
