@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should render 1`] = `
+<Item
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  item={
+    Object {
+      "address": Object {
+        "state_name": "BA",
+      },
+      "picture": "pictureUrl",
+      "price": Object {
+        "amount": 42,
+      },
+      "title": "Rock!",
+    }
+  }
+>
+  <Consumer>
+    <styled.div
+      onClick={[Function]}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "lastClassName": "bdCAb",
+              "rules": Array [
+                "
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  cursor: pointer;
+  animation: all 2x;
+
+  :hover {
+    border-bottom: 1px solid ",
+                "#fff159",
+                ";
+  }
+
+  label {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bdVaJa bdCAb"
+          onClick={[Function]}
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "QtrCB",
+                    "rules": Array [
+                      "
+  width: 160px;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+
+  img {
+    border-radius: 4px;
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bwzfXH QtrCB"
+              >
+                <img
+                  alt="Product"
+                  src="pictureUrl"
+                />
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
+                    "lastClassName": "eYiMlm",
+                    "rules": Array [
+                      "
+  width: 100%;
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-htpNat eYiMlm"
+              >
+                <h3>
+                  $ 
+                  42
+                </h3>
+                <p>
+                  Rock!
+                </p>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <label>
+            BA
+          </label>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </Consumer>
+</Item>
+`;

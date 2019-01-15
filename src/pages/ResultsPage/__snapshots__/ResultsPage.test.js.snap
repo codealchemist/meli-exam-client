@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultsPage should render 1`] = `
+<ResultsPage>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gzVnrw",
+            "isStatic": true,
+            "lastClassName": "kDKrHG",
+            "rules": Array [
+              "
+  width: 100%;
+  background: ",
+              "#eee",
+              ";
+  padding-bottom: 40px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-gzVnrw",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-gzVnrw kDKrHG"
+      >
+        <Results
+          items={Array []}
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "bXxwoo",
+                    "rules": Array [
+                      "
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background: ",
+                      "#fff",
+                      ";
+  color: ",
+                      "#333",
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb bXxwoo"
+              />
+            </StyledComponent>
+          </styled.div>
+        </Results>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</ResultsPage>
+`;

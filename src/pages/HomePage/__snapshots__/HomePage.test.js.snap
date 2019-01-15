@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should render 1`] = `
+<HomePage>
+  <div>
+    <styled.div>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "lastClassName": "elYfoL",
+              "rules": Array [
+                "
+  width: 100%;
+  overflow: hidden;
+
+  img {
+    margin: -2px 0;
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="sc-bdVaJa elYfoL"
+        >
+          <styled.div
+            height="30vw"
+            src="img1.jpg"
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "lastClassName": "lgGhRR",
+                    "rules": Array [
+                      "
+  width: 100%;
+  height: ",
+                      [Function],
+                      ";
+  background: url(",
+                      [Function],
+                      ") no-repeat;
+  background-size: cover;
+  background-position: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              height="30vw"
+              src="img1.jpg"
+            >
+              <div
+                className="sc-bwzfXH cCHmzG"
+                height="30vw"
+                src="img1.jpg"
+              />
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            height="30vw"
+            src="img2.jpg"
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "lastClassName": "lgGhRR",
+                    "rules": Array [
+                      "
+  width: 100%;
+  height: ",
+                      [Function],
+                      ";
+  background: url(",
+                      [Function],
+                      ") no-repeat;
+  background-size: cover;
+  background-position: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              height="30vw"
+              src="img2.jpg"
+            >
+              <div
+                className="sc-bwzfXH jTaqDS"
+                height="30vw"
+                src="img2.jpg"
+              />
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            height="30vw"
+            src="img3.jpg"
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "lastClassName": "lgGhRR",
+                    "rules": Array [
+                      "
+  width: 100%;
+  height: ",
+                      [Function],
+                      ";
+  background: url(",
+                      [Function],
+                      ") no-repeat;
+  background-size: cover;
+  background-position: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              height="30vw"
+              src="img3.jpg"
+            >
+              <div
+                className="sc-bwzfXH bWXqaU"
+                height="30vw"
+                src="img3.jpg"
+              />
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            height="30vw"
+            src="img4.jpg"
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "lastClassName": "lgGhRR",
+                    "rules": Array [
+                      "
+  width: 100%;
+  height: ",
+                      [Function],
+                      ";
+  background: url(",
+                      [Function],
+                      ") no-repeat;
+  background-size: cover;
+  background-position: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              height="30vw"
+              src="img4.jpg"
+            >
+              <div
+                className="sc-bwzfXH lgGhRR"
+                height="30vw"
+                src="img4.jpg"
+              />
+            </StyledComponent>
+          </styled.div>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </div>
+</HomePage>
+`;
